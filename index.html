@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>LOTR</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+    
+        <main id="main-content">
+            <h1 id="page-title">The Lord of the Rings</h1>
+
+            <!--Quotes-->
+
+            <div id="quote-card">
+                <h2 id="quote-title"></h2>
+                <div id="quote-container"></div>
+                <button id='quote-button'>Random Quote</button>
+            </div>
+    
+            <!--Books-->
+            <section id="book-cards">
+                <h2 id="bookCard-title">Select a title to view the summary of that book.</h2>
+                <div id="book-container">
+                    <div class="book">
+                        <img src="./images/fotr.jpg" alt="Fellowship of the Ring" class='book-cover' id="book-1">
+                    </div>
+                    <div class="book">
+                        <img src="./images/TTT.jpg" alt="The Two Towers" class='book-cover' id="book-2">
+                    </div>
+                    <div class="book">
+                        <img src="./images/ROTK.jpg" alt="Return of the King" class='book-cover' id="book-3">
+                    </div>
+                </div>
+            </section>
+    
+            <!--Characters-->
+            <article id="summary-cards">
+                <h2 id="summary-title">Summary:</h2>
+                <!--Fellowship of the Ring-->
+                <section id="book-1-summary" class="summary" value="book1">The first volume in J.R.R. Tolkien's epic adventure THE LORD OF THE RINGS
+                    <br><br>
+                    One Ring to rule them all, One Ring to find them, One Ring to bring them all and in the darkness bind them.
+                    <br><br>
+                    In ancient times the Rings of Power were crafted by the Elven-smiths, and Sauron, the Dark Lord, forged the One Ring, filling it with his own power so that he could rule all others. But the One Ring was taken from him, and though he sought it throughout Middle-earth, it remained lost to him. After many ages it fell into the hands of Bilbo Baggins, as told in The Hobbit. In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the Ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose.
+                    <br><br>
+                    <em>“A unique, wholly realized other world, evoked from deep in the well of Time, massively detailed, absorbingly entertaining, profound in meaning.”</em> – New York Times
+                    <br><br>
+                    Author: J.R.R. Tokien
+                    <br><br>
+                    First Publication: 1954
+
+                </section>
+
+                    <!--The Two Towers-->
+                    <section id="book-2-summary" class="summary" value="book2">
+
+                        Frodo and his Companions of the Ring have been beset by danger during their quest to prevent the Ruling Ring from falling into the hands of the Dark Lord by destroying it in the Cracks of Doom. They have lost the wizard, Gandalf, in a battle in the Mines of Moria. And Boromir, seduced by the power of the Ring, tried to seize it by force. While Frodo and Sam made their escape, the rest of the company was attacked by Orcs. Now they continue the journey alone down the great River Anduin—alone, that is, save for the mysterious creeping figure that follows wherever they go.
+                        <br>
+                        <br>
+                        Author: J.R.R. Tokien
+                        <br>
+                        <br>
+                        First Publication: 1954
+
+                    </section>
+
+                    <!--The Return of the King-->
+                    <section id="book-3-summary" class="summary" value="book3">In the third volume of The Lord of the Rings trilogy the good and evil forces join battle, and we see that the triumph of good is not absolute. The Third Age of Middle-earth ends, and the age of the dominion of Men begins.
+                        <br><br>
+                        The Lord of the Rings: The Return of the King" presents the final confrontation between the forces of good and evil fighting for control of the future of Middle-earth. Hobbits Frodo and Sam reach Mordor in their quest to destroy the `one ring', while Aragorn leads the forces of good against Sauron's evil army at the stone city of Minas Tirith.
+                        <br>
+                        <br>
+                        Author: J.R.R. Tokien
+                        <br>
+                        <br>
+                        First Publication: 1955
+
+                    </section>
+            </article>
+    
+            <!--Images-->
+            <section id="images">
+                <h2 id="img-title">Art of Middle Earth</h2>
+                <div id="img-slides">
+                    
+                    <div class="slides fade">
+                        <div class="numbertext">1 / 6</div>
+                        <img src="images/slides/argonathstatues.jpg" alt="Statues of Argonath">
+                        <div class="caption">Statues of Argonath</div>
+                    </div>
+
+                    <div class="slides fade">
+                        <div class="numbertext">2 / 6</div>
+                        <img src="images/slides/balrog.jpg" alt="Balrog of Moria">
+                        <div class="caption">Balrog of Moria</div>
+                    </div>
+
+                    <div class="slides fade">
+                        <div class="numbertext">3 / 6</div>
+                        <img src="images/slides/elvesmarching.jpg" alt="Elves Marching">
+                        <div class="caption">Elves Marching</div>
+                    </div>
+
+                    <div class="slides fade">
+                        <div class="numbertext">4 / 6</div>
+                        <img src="images/slides/minastirith.jpg" alt="Minas Tirith">
+                        <div class="caption">Minas Tirith</div>
+                    </div>
+
+                    
+                    <div class="slides fade">
+                        <div class="numbertext">5 / 6</div>
+                        <img src="images/slides/mountdoom.jpg" alt="Morder and Mount Doom">
+                        <div class="caption">Morder and Mount Doom</div>
+                    </div>
+
+                    <div class="slides fade">
+                        <div class="numbertext">6 / 6</div>
+                        <img src="images/slides/rivendell.jpg" alt="Rivendell">
+                        <div class="caption">Rivendell</div>
+                    </div>
+
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                  </div>
+                  <br>
+
+                  <div id="dots">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                    <span class="dot" onclick="currentSlide(5)"></span>
+                    <span class="dot" onclick="currentSlide(6)"></span>
+                  </div>
+
+                </div>
+            </section>
+      
+        </main>
+        
+
+
+
+        <script src="index.js"></script>
+    </body>
+    <footer>
+        
+    </footer>
+</html>
+
