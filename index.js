@@ -119,16 +119,16 @@ function book1Display (){
     book3.style.width = "300px";
 
 
-    if (book1Summary.style.display === "none"){
-        book1Summary.style.display = "block";
-        book1.style.border = "3px solid yellow";
-        book1.style.height = "394px";
-        book1.style.width = "294px";
-    } else {
+    if (book1Summary.style.display === "block"){
         book1Summary.style.display = "none";
         book1.style.border = "none";
         book1.style.height = "400px";
         book1.style.width = "300px";
+    } else {
+        book1Summary.style.display = "block";
+        book1.style.border = "3px solid yellow";
+        book1.style.height = "394px";
+        book1.style.width = "294px";
     }
 }
 
@@ -143,16 +143,16 @@ function book2Display (){
     book3.style.width = "300px";
 
 
-    if (book2Summary.style.display === "none"){
-        book2Summary.style.display = "block";
-        book2.style.border = "3px solid yellow";
-        book2.style.height = "394px";
-        book2.style.width = "294px";
-    } else {
+    if (book2Summary.style.display === "block"){
         book2Summary.style.display = "none";
         book2.style.border = "none";
         book2.style.height = "400px";
         book2.style.width = "300px";
+    } else {
+        book2Summary.style.display = "block";
+        book2.style.border = "3px solid yellow";
+        book2.style.height = "394px";
+        book2.style.width = "294px";
     }
 }
 
@@ -168,16 +168,16 @@ function book3Display (){
     book2.style.width = "300px";
 
 
-    if (book3Summary.style.display === "none"){
-        book3Summary.style.display = "block";
-        book3.style.border = "3px solid yellow";
-        book3.style.height = "394px";
-        book3.style.width = "294px";
-    } else {
+    if (book3Summary.style.display === "block"){
         book3Summary.style.display = "none";
         book3.style.border = "none";
         book3.style.height = "400px";
         book3.style.width = "300px";
+    } else {
+        book3Summary.style.display = "block";
+        book3.style.border = "3px solid yellow";
+        book3.style.height = "394px";
+        book3.style.width = "294px";
     }
 }
 

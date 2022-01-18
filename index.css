@@ -27,7 +27,7 @@ body {
     margin-top: 40px;
 }
 
-/*Quote Cards*/
+/*************Quote Cards*************/
 #quote-card {
     margin: auto;
     margin-top: 40px;
@@ -54,7 +54,7 @@ body {
 }
 
 
-/*Book Cards*/
+/************Book Cards*************/
 #book-cards {
     background-color: #524b36;
     width: 80%;
@@ -94,13 +94,10 @@ body {
 }
 
 .book-cover:hover {
-    border: 3px solid yellow;
-    height: 394px;
-    width: 294px;
     cursor: pointer;
 }
 
-/*Summary*/
+/**********Summary*************/
 #summary-cards {
     background-color: #524b36;
     width: 80%;
@@ -113,19 +110,12 @@ body {
     padding: 20px;
 }
 
-#book-1-summary {
+#book-1-summary, #book-2-summary, #book-3-summary {
     display: none;
 }
 
-#book-2-summary {
-    display: none;
-}
 
-#book-3-summary {
-    display: none;
-}
-
-/*Images*/
+/**********Images************/
 #images {
     background-color: #524b36;
     width: 80%;
@@ -138,7 +128,7 @@ body {
 }
 
 
-/*Start of Slideshow*/
+/***********Start of Slideshow**********/
 #images {
     max-width: 1000px;
     position: relative;
@@ -232,4 +222,4 @@ body {
     to {opacity: 1}
 }
 
-/*End of Slideshow setup*/
+/*********End of Slideshow setup************/
