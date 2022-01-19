@@ -14,3 +14,5 @@ When one of these images are clicked on, a brief summary of the book will displa
 ## Art of Middle Earth
 
 This window contains some art work from various artists depicting the world of Lord of the Rings.  The user can click on the left or right arrows displayed on either side of the window to view the next artwork.
+
+All Art Credit goes to the various artists from the different sources where these are located.
