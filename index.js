@@ -1,16 +1,8 @@
 
 document.addEventListener('DOMContentLoaded', () => {
-
     fetchQuotes()
     loadCharacters()
-   
-
-    
 })
-
-
-
-
 
 
 
@@ -26,9 +18,7 @@ async function loadCharacters(){
     fetch('https://the-one-api.dev/v2/character', {headers})
     .then(res => res.json())
     .then(data => {
-        characters = data.docs
-
-
+        characters = data.docs;
     })
 }
 
@@ -38,8 +28,7 @@ async function fetchQuotes(){
     fetch('https://the-one-api.dev/v2/quote', {headers})
     .then(res => res.json())
     .then(data => {
-        quotes = data.docs
-
+        quotes = data.docs;
     })
 }
 
@@ -49,20 +38,16 @@ async function fetchQuotes(){
 //*********Quotes***********
 
 
-
-
-
 function displayQuote(quotes, characters){
     let quoteTitle = document.getElementById('quote-title');
     let quoteContainer = document.getElementById('quote-container') 
     let randomQuote = quotes[Math.floor(Math.random() * quotes.length)]
-    let randomQuoteCharacter = randomQuote.character
+    let randomQuoteCharacter = randomQuote.character;
 
     quoteTitle.innerHTML = `
         <h4><em>"${randomQuote.dialog}"</em></h4>
 
     `
-
 
     for (let i = 0; i < characters.length; i++){
 
@@ -74,40 +59,40 @@ function displayQuote(quotes, characters){
         }
     }
 
+
+
  //*******Like Button *********
     let heartButton = document.querySelector("#quote-container > button");
     let heart = document.querySelector("#quote-container > button > span")
     const emptyHeart = '\u2665';
     const fullHeart = '\u2661';
 
-    heart.textContent = fullHeart
+    heart.textContent = fullHeart;
     heartButton.addEventListener('click', (e) => {
     
         
 
         if (heart.textContent === fullHeart){
-            heart.textContent = emptyHeart
+            heart.textContent = emptyHeart;
         } else if (heart.textContent === emptyHeart){
-            heart.textContent = fullHeart
+            heart.textContent = fullHeart;
         }
     })
 
   
-    
-
-
 }
 
 
 
 //***********Book Summaries******************
-const book1 = document.getElementById('book-1')
-const book2 = document.getElementById('book-2')
-const book3 = document.getElementById('book-3')
-let book1Summary = document.querySelector('#book-1-summary')
-let book2Summary = document.querySelector('#book-2-summary')
-let book3Summary = document.querySelector('#book-3-summary')
+const book1 = document.getElementById('book-1');
+const book2 = document.getElementById('book-2');
+const book3 = document.getElementById('book-3');
+let book1Summary = document.querySelector('#book-1-summary');
+let book2Summary = document.querySelector('#book-2-summary');
+let book3Summary = document.querySelector('#book-3-summary');
 
+//Fellowship of the Ring
 function book1Display (){
     book2Summary.style.display = "none";
     book3Summary.style.display = "none";
@@ -132,6 +117,7 @@ function book1Display (){
     }
 }
 
+//The Two Towers
 function book2Display (){
     book1Summary.style.display = "none";
     book3Summary.style.display = "none";
@@ -156,7 +142,7 @@ function book2Display (){
     }
 }
 
-
+//Return of the King
 function book3Display (){
     book1Summary.style.display = "none";
     book2Summary.style.display = "none";
@@ -182,7 +168,7 @@ function book3Display (){
 }
 
 
-//****************Slideshow setup************
+//**********Slideshow setup************
 let slideIndex = 1;
 showSlides(slideIndex);
 

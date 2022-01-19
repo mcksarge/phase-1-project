@@ -1,11 +1,12 @@
+/***********Main Content*********/
 body {
-    background-image: url("./images/whitetreegondor.jpg");
+    background-image: url("./images/middleearthEdited.jpg");
+    background-attachment: fixed;
     height: 100%;
     width: 100%;
     background-size: auto;
     background-color: #3d7b87;
     color: white;
-
 }
 
 #page-title {
@@ -21,10 +22,13 @@ body {
 }
 
 #main-content {
+    background-image: url('./images/whitetreegondor.jpg');
     background-color: #302b1b;
     width: 75%;
     margin: auto;
     margin-top: 40px;
+    border: 10px solid gold;
+    box-shadow: 0 0 0 10px black;
 }
 
 /*************Quote Cards*************/
@@ -35,14 +39,15 @@ body {
     background-image: url('./images/inscription.jpg');
     background-position: center;
     background-color: #5e748a;
-    width: 60%;
-    padding-bottom: 20px;
+    width: 40%;
+    padding: 10px 10px;
     border: 2px solid white;
 }
 
 #quote-button {
     margin: auto;
     text-align: center;
+    margin-bottom: 15px;
 }
 
 #quote-title {
@@ -67,7 +72,7 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    background-image: url("./images/middleearth.jpg");
+    background-image: url("./images/threecards.jpg");
     background-position: center;
     padding: 15px 0;
 }
@@ -103,11 +108,13 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 .summary {
     display: none;
     padding: 20px;
+    font-size: 25px;
 }
 
 #book-1-summary, #book-2-summary, #book-3-summary {
@@ -121,6 +128,7 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
+    padding: 20px;
 }
 
 #dots {
