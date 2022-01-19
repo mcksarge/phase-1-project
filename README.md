@@ -1,4 +1,4 @@
-# phase-1-project
+# phase-1-project (Lord of the Rings)
 
 This project is a single page app where users can get some brief information on the lord of the rings novels.
 
