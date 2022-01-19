@@ -22,7 +22,7 @@ body {
 }
 
 #main-content {
-    background-image: url('./images/whitetreegondor.jpg');
+    background-image: url('./images/leather.jpg');
     background-color: #302b1b;
     width: 75%;
     margin: auto;
@@ -128,7 +128,7 @@ body {
     width: 80%;
     margin: auto;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 #dots {
@@ -144,8 +144,8 @@ body {
 }
 
 .slides img {
-    width: 700px;
-    height: 500px;
+    width: 900px;
+    height: 600px;
 }
 
 .slides {
