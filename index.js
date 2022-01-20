@@ -175,24 +175,24 @@ function plusSlides(n) {
     showSlides(slideIndex += n);
 }
 
-//Thumbnail controls
+//Thumbnail controls, script is called in HTML with onClick
 function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 
+//For this function, slideIndex is being passed as the argument
 function showSlides(n) {
-    let i;
     let slides = document.getElementsByClassName('slides');
     let dots = document.getElementsByClassName('dots');
-
-    if (n > slides.length) {slideIndex = 1}
-    if (n < 1) {slideIndex = slides.length}
-    for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = 'none';
+    
+    if (n > slides.length) {slideIndex = 1} //Goes to slide 1 if user goes past last slide
+    if (n < 1) {slideIndex = slides.length} //Goes to last slide if user goes before first slide
+    for (let i = 0; i < slides.length; i++) {
+        slides[i].style.display = 'none'; //Iterates through slides
     }
 
     for (i = 0; i < dots.length; i++){
-        dots[i].className = dots[i].className.replace(' active', '');
+        dots[i].className = dots[i].className.replace(' active', ''); //Iterates through dots
     }
 
     slides[slideIndex-1].style.display = 'block';
