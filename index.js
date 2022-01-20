@@ -36,8 +36,6 @@ async function fetchQuotes(){
 
 
 //*********Quotes***********
-
-
 function displayQuote(quotes, characters){
     let quoteTitle = document.getElementById('quote-title');
     let quoteContainer = document.getElementById('quote-container') 
