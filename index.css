@@ -220,6 +220,7 @@ body {
     animation-duration: 1.5s;
 }
 
+/*Controls the intermediate steps in CSS animation*/
 @-webkit-keyframes fade {
     from {opacity: .4}
     to {opacity: 1}
