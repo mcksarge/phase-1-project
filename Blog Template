@@ -1,0 +1,24 @@
+As a big Lord of the Rings fan, I felt it only natural to build my first project based around that genre.  After about 2 months of coding with Flatiron, I’ve reached a point to where I can build a function webpage that pulls data from an API as well as adding some interactivity throughout the page.  
+Getting started wasn’t easy however, taking those first steps has always been, at least for me, the hardest part.  Not because I didn’t know where to start, but mainly for what I know what troubles I will run into.  Ideas were going to have to change based on time constraints and my current ability to get things working how I want them and to where I felt happy with what I was looking at, and at this point, all I was looking at was a white screen with “Lord of the Rings” displayed on the top left corner in black text.  I had some work to do.
+	I knew that I was going to need to tackle this project in steps, so I broke down every feature I planned to implement and wrote them down to keep myself on track, these steps were not very specific, with steps like:
+•	Add button to manually change quotes
+•	Highlight the selected book
+•	Change background color
+From there I created a rough diagram of how I wanted my webpage to look like, I planned out where each section would go and pictured in my head if that layout would make sense to a user.  I then began building my HTML layout.  
+
+ 
+	
+I laid the foundation for my webpage, setting up the main element, giving it an ID to reference later in CSS when I design my page, for now, I’m just laying out the framework.  
+I then create my divs:
+Quotes – This will display a random quote
+Books – This will display 3 books that the user can click on
+Images – This will display various artwork by Tolkien Fans
+With my sections created, I fill them with the content that I will manipulate later in Javascript, I add descriptions of the books, and add some images to my image div.  I leave the Quotes section blank for now, as I’ll be using data from an API to pull those from.
+	 
+
+With my HTML set up, and all my necessary elements given ID’s or classes, I move on to CSS to beautify the ugly page of text I currently have on my screen.
+ 
+
+To make this a bit more appealing to the eye, I start by adding color and changing up the font on the text to make them a little less… default.  I pick a color palette that will somewhat fit in with the theme of the page, center my elements and throw in some borders to really make them pop.  
+	After that, I start playing with sections to make them stand out even more so, and give more of a “This is Lord of the Rings” vibe, rather than a “This my medical history” vibe.  I throw in some images into the background of some elements, but I had to be careful here, as if I used a background image for every element, the page would look cluttered and would be hard to read and would make you feel like you fell back into the late 90’s.  
+I 
